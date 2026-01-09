@@ -49,7 +49,7 @@ nav div button{
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     width: 100%;
     max-width: 1600px;
-   
+   padding-top: 115px;
     height: 674px;
     text-align: center;
     
@@ -73,7 +73,7 @@ nav div button{
 }
 .header-content blank{
 
-   
+   margin-top: 16px;
    
 }
 #Structured{
@@ -104,4 +104,60 @@ nav div button{
     gap: 16px;
     display: flex;
     justify-content: center;
+}
+.note{
+    width: 1360px ;
+    height: 152px;
+    
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+.note h3{
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-size: 48px;
+    color: #001931;
+}
+.note p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.card{
+    max-width: 1360px;
+    width: 80%;
+    height: 300px;
+    border: 1px solid #0b7ed0;
+    margin: 0 auto;
+    display: flex;
+}
+.card div img{
+    background-color: #F95555;
+    border-radius: 60px 60px;
+    padding: 14px;
+    margin: 69px 131px 16px 107px;
+    
+}
+.card div h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+.card div p{
+    font-size: 16px;
+    color: #627382;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 21px;
+}
+.card div {
+    width: 322px;
+    height: 300px;
+    box-shadow: 0px 4px 16px rgba(52, 16, 211, 0.1);
+    gap: 24px;
 }
