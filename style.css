@@ -41,6 +41,10 @@
     border-radius: 4px;
     font-size: 16px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #30B868;
 }
 nav div button{
   margin-right: 120px;
@@ -161,3 +165,40 @@ nav div button{
     box-shadow: 0px 4px 16px rgba(52, 16, 211, 0.1);
     gap: 24px;
 }
+.third{
+    display: flex;
+   
+}
+.third .image img{
+   width: 600px;
+   height: 600px;
+    
+}
+.content #Solution{
+   color: #469165;
+   font-size: 16px;
+    margin-bottom: 16px;
+    
+}
+.third .content{
+    padding: 102px 0 40px 60px;
+}
+.content h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.content #middle-part{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 40px;
+    width: 700px;
+    height: 60px;
+}
+.bottom-content{
+    display: flex;
+   font-size: 16px;
+   color: #001931;
+    gap: 16px;
+}
+
