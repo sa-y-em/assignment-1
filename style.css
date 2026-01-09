@@ -167,11 +167,12 @@ nav div button{
 }
 .third{
     display: flex;
-   
+   margin: 120 px;
 }
 .third .image img{
    width: 600px;
    height: 600px;
+    margin-left: 120px;
     
 }
 .content #Solution{
